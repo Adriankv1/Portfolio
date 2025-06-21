@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
       image: "📝",
       technologies: ["C#", ".NET", "mariaDB"],
       category: "fullstack",
-      liveUrl: "N/A",
+      // liveUrl: "N/A",
       githubUrl: "https://github.com/thevithach/WebapplikasjonSemesterOppgave",
       featured: true
     },
