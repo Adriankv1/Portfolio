@@ -19,46 +19,46 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.",
-      image: "🛒",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe", "Redux"],
-      category: "fullstack",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
+      title: "Group calendar",
+      description: "A group calendar app that allows users to put availability and see what times work for everyone",
+      image: "🗓️",
+      technologies: ["React", "Typescript", "Supabase"],
+      category: "frontend",
+      liveUrl: "https://adriankv1.github.io/Keys-Calendar/calendar",
+      githubUrl: "https://github.com/Adriankv1/Keys-Calendar",
       featured: true
     },
     {
       id: 2,
-      title: "Task Management App",
-      description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      title: "To do list",
+      description: "A to do list app that allows users to add, edit, and delete lists of tasks. It also allows users to mark tasks as completed and delete them.",
       image: "📋",
-      technologies: ["React", "TypeScript", "Socket.io", "PostgreSQL"],
+      technologies: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
       category: "frontend",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
+      liveUrl: "https://adriankv1.github.io/List-to-do/",
+      githubUrl: "https://github.com/Adriankv1/List-to-do",
       featured: true
     },
-    {
-      id: 3,
-      title: "Weather Dashboard",
-      description: "A beautiful weather dashboard that displays current weather and forecasts using OpenWeatherMap API with interactive charts and maps.",
-      image: "🌤️",
-      technologies: ["React", "Chart.js", "OpenWeatherMap API", "Tailwind CSS"],
-      category: "frontend",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
-      featured: false
-    },
+    // {
+    //   id: 3,
+    //   title: "Weather Dashboard",
+    //   description: "A beautiful weather dashboard that displays current weather and forecasts using OpenWeatherMap API with interactive charts and maps.",
+    //   image: "🌤️",
+    //   technologies: ["React", "Chart.js", "OpenWeatherMap API", "Tailwind CSS"],
+    //   category: "frontend",
+    //   liveUrl: "https://adriankv1.github.io/List-to-do/",
+    //   githubUrl: "https://github.com/yourusername/project",
+    //   featured: false
+    // },
     {
       id: 4,
-      title: "Blog Platform",
-      description: "A modern blog platform with markdown support, SEO optimization, and a custom CMS for content management.",
+      title: "Webservice application",
+      description: "A webservice application in collaboration with Nøsted& that allows users to manage orders.",
       image: "📝",
-      technologies: ["Next.js", "TypeScript", "Prisma", "PostgreSQL"],
+      technologies: ["C#", ".NET", "mariaDB"],
       category: "fullstack",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
+      liveUrl: "N/A",
+      githubUrl: "https://github.com/thevithach/WebapplikasjonSemesterOppgave",
       featured: true
     },
     {
@@ -68,21 +68,21 @@ const Projects: React.FC = () => {
       image: "🎨",
       technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
       category: "frontend",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
-      featured: false
-    },
-    {
-      id: 6,
-      title: "API Gateway",
-      description: "A microservices API gateway with authentication, rate limiting, and request routing built with Node.js and Express.",
-      image: "🚪",
-      technologies: ["Node.js", "Express", "Redis", "JWT", "Docker"],
-      category: "backend",
-      liveUrl: "https://example.com",
-      githubUrl: "https://github.com/yourusername/project",
+      liveUrl: "https://portfolio-adrian-viken.vercel.app/",
+      githubUrl: "https://github.com/Adriankv1/Portfolio",
       featured: false
     }
+    // {
+    //   id: 6,
+    //   title: "API Gateway",
+    //   description: "A microservices API gateway with authentication, rate limiting, and request routing built with Node.js and Express.",
+    //   image: "🚪",
+    //   technologies: ["Node.js", "Express", "Redis", "JWT", "Docker"],
+    //   category: "backend",
+    //   liveUrl: "https://example.com",
+    //   githubUrl: "https://github.com/yourusername/project",
+    //   featured: false
+    // }
   ];
 
   const filters = [
